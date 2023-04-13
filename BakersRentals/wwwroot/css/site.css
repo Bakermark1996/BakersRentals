@@ -1,0 +1,33 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #fca311;
+}
+
+#front-page-img {
+    width: 70%;
+    height: 75%;
+}
+
+#btn-create {
+    border-radius: 1rem;
+}
+
+#create {
+    text-decoration: none;
+    color: white;
+}
